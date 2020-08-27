@@ -1,0 +1,1 @@
+"use strict";$(".sunmit_xx").click(function(){$.ajax({method:"post",url:"../php/login.php",data:{username:$(".username").val(),password:$(".password").val()},success:function(s){1==s.code?(sessionStorage.setItem("un",s.data.username),location.href="../pages/index.html"):$(".login_ts").html("用户名或密码错误").css({color:"red"})},dataType:"json"})});
