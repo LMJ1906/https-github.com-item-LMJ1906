@@ -1,0 +1,202 @@
+.container{
+    min-width: 960px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/*顶部 */
+.headerwrap{
+    background:rgba(0,0,0,0.05);
+    height: 48px;
+    min-width: 1200px;
+}
+.header .logo{
+    float: left;
+}
+.header img{
+    height: 24px;
+    width: 108px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.header h2{
+    float: left;
+    height: 22px;
+    font-size: 16px;
+    margin-top:12px;
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+}
+/* 内容 */
+.mian{
+    position: relative;
+}
+.mian_content{
+    width: 440px;
+    margin: 60px auto 38px;
+    text-align: center;
+    border-top: 1px solid #fff;
+}
+.tog_register{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+.tog_register a{
+    display: block;
+    padding: 12px;
+    width: 196px;
+    height: 14px;
+    border-radius: 6px;
+    background:rgba(0,0,0,.05);
+}
+.tog_register a:nth-child(2){
+    background: #fff;
+}
+.register_box .title1{
+    margin: 10px 0 60px;
+}
+.title1 h2{
+    font-size: 32px;
+    line-height: 40px;
+}
+.title1 .title1_01{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.title1 .title1_01 a{
+    color: #007dff;
+}
+.title1 .title1_01 a .youla1{
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.input_box{
+    width: 438px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid  rgba(0, 0, 0, 0.05);
+    line-height: 48px;
+    margin-top: 20px;
+}
+.country_box span:nth-child(1){
+    padding: 0 16px;
+    float: left;
+}
+.country_box span:nth-child(2){
+    float: right;
+    cursor: pointer;
+}
+.country_box i{
+    padding: 0 16px 0 8px;
+    font-size: 10px;
+}
+.telphone_box span{
+    padding-left: 16px;
+}
+.telphone_box i{
+    font-size: 10px;
+    padding: 8px;
+}
+.telphone_box b.sx{
+    display: inline-block;
+    width: 1px;
+    height: 28px;
+    background: #ccc;
+    position: relative;
+    top:10px;
+    margin-right:20px ;
+}
+.telphone_box input{
+    height: 48px;   
+    width: 300px;
+    font-size: 16px;
+    background:  rgba(0,0,0,0);
+}
+.telphone_box p{
+    line-height: 14px;
+    height: 14px;
+    font-size: 12px;
+    color: red;
+    text-align: left;
+    display: none;
+}
+.news_box input{
+    width: 322px;
+    height: 45px;
+    padding: 0 16px;
+    background:  rgba(0,0,0,0);
+}
+.news_box span{
+    color: #007dff;
+    opacity: 0.5;
+}
+.pwbox_01 input,.pwbox_02 input{
+    width: 380px;
+    height: 100%;
+    background:  rgba(0,0,0,0);
+    margin:0 16px;
+}
+.pwbox_01 i,.pwbox_02 i{
+    font-size: 20px;
+    color:#ccc;
+    cursor: pointer;
+}
+.pwts{
+    line-height: 14px;
+    height: 14px;
+    font-size: 12px;
+    color: green;
+    text-align: left;
+    display: none;
+}
+.bothday{
+    position: relative;
+}
+.bothday .b_tishi{
+    position: absolute;
+    right: -30px;
+    color: #666;
+}
+.register_btn input{
+    width: 310px;
+    height: 50px;
+    margin-top: 50px;
+    background: #007dff;
+    color:#fff;
+    font-size: 20px;
+    border-radius: 8px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+/* 底部 */
+.footerwrap{
+    background: rgba(0,0,0,0.05);
+    min-width: 1200px;
+}
+.footer{
+    margin-top: 46px;
+    padding: 33px 0;
+}
+.footer .footer_01{
+    margin: 0 auto;
+    text-align: center;
+}
+.footer .footer_01 a{
+    display: inline-block;
+    height: 20px;
+    border-right:1px solid #ccc ;
+    padding:0 10px 0 14px;
+}
+.footer .footer_01 a.s4{
+    border-width: 0;
+}
+.footer_02{
+    text-align: center;
+    margin-top: 12px;
+    color: #000;
+    opacity: 0.3;
+    font-size: 12px;
+}

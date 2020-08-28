@@ -1,0 +1,42 @@
+/* 样式重置 */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font: 14px "微软雅黑","Arial";
+    color: #3a3a3a;
+}
+h1,h2,h3,h4,h5,h6,strong,b{
+    font-weight: normal;
+}
+input,textarea,button{
+    outline: none;
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    vertical-align: middle;
+}
+li{
+    list-style: none;
+}
+i,em{
+    font-style: normal;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+/* span{
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+} */

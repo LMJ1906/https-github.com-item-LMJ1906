@@ -1,0 +1,340 @@
+.container{
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 顶部 */
+.headwrap{
+    height: 36px;
+    min-width: 1200px;
+    background: #2e2828;
+}
+.head_nav1{
+    float: left;
+}
+.head_nav1 li{
+    padding: 0 8px;
+}
+.head li a:hover{
+    color: #fff;
+}
+.head_nav1 li a{
+    color: #afafaf;
+    font-size: 12px;
+}
+.head_nav2{
+    float: right;
+}
+.head_nav2 li{
+    padding: 0 10px;
+}
+.head_nav2 li a{
+    color: #afafaf;
+    font-size: 12px;
+}
+.head li{
+    float: left;
+    line-height: 36px;
+}
+.distinguish{
+    position: relative;
+}
+.distinguish::before{
+    content: "";
+    width: 1px;
+    height: 10px;
+    display: block;
+    background: #414141;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+.splogo{
+    font-size:12px ;
+    margin-right: 5px;
+}
+.xiala1{
+    vertical-align: middle;
+}
+/* 头部 */
+.bg1{
+    background: url(https://res8.vmallres.com/20200731/images/echannel/icon/icon01.svg) no-repeat;
+}
+.headerwrap{
+    height: 40px;
+    padding: 18px 0 16px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.04);
+}
+.header h1{
+    width: 205px;
+    height: 36px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 205px 36px;
+    text-indent: -9999px;
+    margin-right: 34px;
+    float: left;
+}
+.header_nav{
+    float: left;
+}
+.header_nav li{
+    float: left;
+    line-height: 40px;
+    margin-right: 24px;
+}
+.header_nav .prefecture1 a,.header_nav .prefecture2 a{
+    display: block;
+    width: 74px;
+    height: 24px;
+    background: #ff8486;
+    margin-top: 8px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 12px;
+    color: #fff;
+}
+.header_nav a:hover{
+    color: #ca141d;
+}
+.header_nav .prefecture1 a:hover,.header_nav .prefecture2 a:hover{
+    opacity: 0.8;
+    color: #fff;
+}
+.header_nav .prefecture2 a{
+    background: #74c7ff;
+}
+.header_search{
+    width: 240px;
+    height: 30px;
+    float: right;
+    background: #f0f0f0;
+    border-radius: 15px;
+    line-height: 30px;
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
+    position: relative;
+}
+.header_search:hover{
+    border-color:#c9c9c9 ;
+}
+.h_search{
+    float: left;
+    width: 204px;
+    height: 28px;
+    border-radius: 14px;
+    background: #f0f0f0;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.h_submit{
+    float: right;
+    line-height: 30px;
+    width: 34px;
+    height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header_s{
+    line-height: 30px;
+    position: absolute;
+    left: 140px;
+}
+.header_s a{
+    color: #999;
+    font-size: 12px;
+}
+.header_s a:hover{
+    color: #000;
+}
+/* 底部 */
+.foot_wrap{
+    background: #f9f9f9;
+}
+.footer{
+    background: #f9f9f9;
+}
+.footer_01{
+    padding: 22px 0 20px;
+}
+.footer_01 li{
+    float: left;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    padding-right:120px ;
+}
+.footer_01 .s4{
+    padding-right: 0;
+}
+.footer_01 li a{
+    display: block;
+}
+.footer_01 li a i{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.footer_01 li a i.ss1{
+    background-position: -74px 0;
+}
+.footer_01 li a i.ss2{
+    background-position: -154px 0;
+}
+.footer_01 li a i.ss3{
+    background-position: -194px 0;
+}
+.footer_01 li a i.ss4{
+    background-position: -114px 0;
+}
+.footer_02{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 23px 0 24px;
+}
+.footer_02_left{
+    float: left;
+    padding-top: 5px;
+    width: 920px;
+    height: 155px;
+    border-right: 1px solid #e5e5e5;
+}
+.footer_02_left dl{
+    float: left;
+    width: 16.6%;
+}
+.footer_02_left dl dt{
+    padding-bottom: 7px;
+    color: #333;
+}
+.footer_02_left dl dd a{
+    line-height: 22px;
+    color: #777;
+    font-size: 12px;
+}
+.footer_02_left .blogroll .blogroll_02{
+    display: none;
+}
+.footer_02_right{
+    float: left;
+    width: 279px;
+    text-align: center;
+}
+.footer_02_right dt{
+    font-size: 24px;
+    font-weight: bold;
+    color:#575757;
+    line-height: 36px;
+}
+.footer_02_right dd.dh{
+    font-size: 14px;
+    color:#575757;
+    line-height: 22px;
+}
+.footer_02_right dd a{
+    display: block;
+    width: 170px;
+    height: 34px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 34px;
+    background: #333;
+    cursor: pointer;
+    border-radius: 17px;
+    color: #fff;
+}
+.footer_02_right .vmall{
+    width: 250px;
+    margin-top: 26px;
+    margin-left: 40px;
+}
+.footer_02_right .vmall i{
+    font-size: 18px;
+    margin:0 5px;
+    vertical-align: middle;
+}
+/* 版权信息 */
+.foot{
+    padding: 25px 0 28px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 1.5;
+}
+.foot_left{
+    float: left;
+    padding: 3px 20px 0 0;
+}
+.foot_left img{
+    vertical-align: top;
+    width: 82px;
+    height: 20px;
+}
+.foot_center{
+    float: left;
+    color: #666;
+}
+.foot_center ul{
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+.foot_center ul li{
+    float: left;
+    line-height: 1;
+    padding-right: 6px;
+    border-right: 1px solid #d3d3d3;
+    margin-right: 6px;
+}
+.foot_center ul li:last-child{
+    border: 0;
+    margin-right: 0;
+    padding-right: 0;
+    
+}
+.foot_center ul li a{
+    color: #777;
+    font-size: 12px;
+}
+.foot_center .bqxx{
+    color: #a4a4a4;
+    font-size: 12px;
+}
+.foot_center .bqxx a{
+    color: #a4a4a4;
+}
+.foot_center p{
+    font-size: 12px;
+    color: #a4a4a4;
+}
+.foot_right{
+    float: right;
+}
+.foot_right img{
+    vertical-align: top;
+    width: 70px;
+    height: 24px;
+}
+/* 悬浮工具栏 */
+.toolbar{
+    position: fixed;
+    right: 6px;
+    bottom: 60px;
+    z-index: 500;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 2px;
+}
+.toolbar a{
+    width: 38px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+.toolbar a i{
+    color: #777;
+    font-size: 24px;
+}

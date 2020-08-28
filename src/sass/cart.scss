@@ -1,0 +1,213 @@
+.mainwrap{
+    background: #f5f5f5;
+    overflow: hidden;
+    .main{
+        // 表头
+        .m_top{
+            background: #fff;
+            line-height: 40px;
+            padding-left: 40px;
+            color: #a4a4a4;
+            margin-top: 10px;
+            .all{
+                float: left;
+                width: 150px;
+                .check_all{
+                    margin-right: 10px;
+                }
+            }
+            .check_t_right{
+                float: left;
+                li{
+                    float: left;
+                    width: 100px;
+                    margin-left: 30px;
+                    min-height: 14px;
+                    text-align: center;
+                }
+                li:nth-child(1){
+                    width: 450px;
+                    text-align: left;
+                    margin-left: 0;
+                }
+            }
+        }
+        // 购物车商品数据
+        .cartkong{
+            height: 300px;
+            background:#eee ;
+            line-height: 300px;
+            font-size: 100px;
+            color: #aaa;
+            text-align: center;
+        }
+        .m_center{
+            padding-left: 40px;
+            padding-top: 20px;
+            overflow: hidden;
+            background:#fff ;
+            margin-top: 10px;
+            div>{
+                // float: left;
+                margin-top: 10px;
+                label{
+                    float: left;
+                    margin: 43px 3px 0 0;
+                    .check_01{
+                        margin-right: 10px;
+                    }
+                }
+                ul{
+                    margin-bottom: 18px;
+                    float: left;
+                    li{
+                        float: left;
+                        width: 100px;
+                        margin-left: 40px;
+                        min-height: 14px;
+                        text-align: center;
+                    }
+                    .phone_img{
+                        width: 100px;
+                        height: 100px;
+                        float: left;
+                        margin-right: 20px;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .phone_op{
+                        width: 450px;
+                        text-align: left;
+                        margin-left: 0;
+                        .phone_title{
+                            margin-bottom: 2px;
+                            line-height: 20px;
+                        }
+                        .phone_deploy{
+                            color: #666;
+                            white-space: nowrap;
+                            line-height: 17px;
+                        }
+                        p:nth-child(3){
+                            font-size: 14px;
+                            color: #ca141d;
+                            line-height: 18px;
+                            padding: 0 8px;
+                            margin-right: 8px;
+                            border: 1px solid #ca141d;
+                            margin-top: 6px;
+                            width: 56px;
+                        }
+                    }
+                    .phone_price{
+                        margin-bottom: 3px;
+                        margin-left: 0;
+                    }
+                    .phone_num{
+                        border: 1px solid #d6d6d6;
+                        width: 86px;
+                        margin: 0 auto;
+                        height: 20px;
+                        border-radius: 2px;
+                        margin-left: 30px;
+                        text-align: center;
+                        position: relative;
+                        .num{
+                            width: 42px;
+                            height: 20px;
+                            position: absolute;
+                            top: 0;
+                            left: 22px;
+                            text-align: center;
+                            border: 1px solid #d6d6d6;
+                            border-top: none;
+                            border-bottom: none;
+                            z-index: 1;
+                        }
+                        .dec,.add{
+                            width: 21px;
+                            height: 20px;
+                            line-height: 19px;
+                            float: left;
+                            font-size: 16px;
+                            text-align: center;
+                            cursor: pointer;
+                            color: #717171
+                        }
+                        .add{
+                            float: right;
+                        }
+                    }
+                    .phone_np{
+                        color: #ca141d;
+                        font-weight: 700;
+                    }
+                    .phone_del{
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+        //结算部分
+        .m_bottom{
+            display: none;
+            background: #fff;
+            height: 60px;
+            margin-top: 10px;
+            .m_b_left{
+                float: left;
+                line-height: 60px;
+                label{
+                    float: left;
+                    margin-left: 40px;
+                    .check_all{
+                        margin-right: 10px;
+                        cursor: pointer;
+                    }
+                }
+                a{
+                    float: left;
+                    margin-left: 20px;
+                }
+            }
+            .m_b_right{
+                float: right;
+                a{
+                    width: 180px;
+                    height: 60px;
+                    line-height: 60px;
+                    display: block;
+                    background: #ca151e;
+                    font-size: 18px;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+            .m_b_center{
+                float: right;
+                padding-right: 30px;
+                margin-top: 7px;
+                text-align: right;
+                .prices{
+                    .num{
+                        color: #ca151e;
+                        font-size: 18px;
+                        font-weight: 700;
+                        width: 10px;
+                    }
+                }
+                .gross{
+                    color: #a4a4a4;
+                    font-size: 12px;
+                    span{
+                        color: #ca151e;
+                        margin: 0 5px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+} 
